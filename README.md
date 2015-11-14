@@ -1,6 +1,8 @@
 # Feature steps
 
 1. basic UI (react)
+    * server
+    * client
 1. basic setup (directory structure, npm scripts, babel, webpack)
 1. developer productivity: hot loading of UI, redux developer tools
 1. retrieve data from server (simple REST API)
@@ -18,7 +20,7 @@
 
 ## Future?
 
-* Introduce Flow
+* Introduce Flow, ESLint, etc.
 
 
 ## Motivating example: basic e-commerce site
