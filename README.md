@@ -3,8 +3,9 @@
 1. basic UI (react)
     * server
     * client
-1. basic setup (directory structure, npm scripts, babel, webpack)
+    * basic setup (directory structure, npm scripts, babel, webpack)
 1. developer productivity: hot loading of UI, redux developer tools
+    * https://github.com/gaearon/react-transform-hmr
 1. retrieve data from server (simple REST API)
 1. lightweight, redux-friendly routing / place-management
     * link generation (placeManager; react-router vs...)
@@ -13,14 +14,16 @@
 1. dependency injection...
     * [ES7 decorators](http://jaysoo.ca/2015/06/09/react-contexts-and-dependency-injection/)
 1. passport.js w/Facebook, Google & Local
+1. production optimisation
 1. site analytics
     * https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications
 1. site monetizing
 
 
+
 ## Future?
 
-* Introduce Flow, ESLint, etc.
+* Introduce Flow, ESLint, (server) logging (morgan) etc.
 
 
 ## Motivating example: basic e-commerce site

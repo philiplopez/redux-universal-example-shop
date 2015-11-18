@@ -1,0 +1,43 @@
+{
+  "name": "redux-universal-example-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "build:watch": "npm run build -- --watch",
+    "client": "webpack --config webpack/webpack.dev.config.js",
+    "client:watch": "npm run client -- --watch",
+    "server": "nodemon build/ui-web/uiWebServer.js",
+    "server:watch": "npm run server -- --watch build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philiplopez/redux-universal-example-shop.git"
+  },
+  "author": "Philip Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philiplopez/redux-universal-example-shop/issues"
+  },
+  "homepage": "https://github.com/philiplopez/redux-universal-example-shop#readme",
+  "dependencies": {
+    "compression": "^1.6.0",
+    "connect": "^3.4.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4",
+    "serve-static": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.33",
+    "babel-cli": "^5.8.33",
+    "babel-loader": "^5.3.3",
+    "nodemon": "^1.8.1",
+    "webpack": "^1.12.5"
+  }
+}
