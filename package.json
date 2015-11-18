@@ -29,6 +29,7 @@
     "connect": "^3.4.0",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
+    "react-hyperscript": "^2.2.0",
     "react-redux": "^4.0.0",
     "redux": "^3.0.4",
     "serve-static": "^1.10.0"
