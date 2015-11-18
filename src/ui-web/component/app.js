@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         const {dispatch} = this.props;
         return h("div", [
-            h("p", {ref: "p"}, "Are YOU watching?")
+            h("p", "Are YOU watching?")
         ]);
     }
 }
